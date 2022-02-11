@@ -1,7 +1,7 @@
 # android-splash-screen
 Android SplashScreen with compat library.
 
-![screen-20220212-014956_2](https://user-images.githubusercontent.com/71378340/153634283-7b66c977-6d3d-4d08-8134-8e70910adbf3.gif)
+Uploading screen-20220212-014956_2.mp4…
 
 * 各ファイルに TODO で必要な内容が書かれていますので、そちら参考にしてください :)
 
