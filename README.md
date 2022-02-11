@@ -1,4 +1,4 @@
-# splashscreen
+# android-splash-screen
 Android SplashScreen with compat library.
 
 # 実装のしかた
