@@ -1,0 +1,56 @@
+<!-- TODO 3.Animation Vector Drawable はすべてのピクセル密度で使用できるので res/drawable/ 直下に置きます -->
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24">
+            <group
+                android:name="group"
+                android:pivotX="12"
+                android:pivotY="12"
+                android:scaleX="0.7"
+                android:scaleY="0.7">
+                <group android:name="vector_1">
+                    <path
+                        android:name="path_1"
+                        android:pathData="M 1.661 12 C 1.661 6.319 6.29 1.714 12.001 1.714 C 17.709 1.714 22.34 6.319 22.34 12 C 22.34 17.681 17.709 22.286 12.001 22.286 C 6.29 22.286 1.661 17.681 1.661 12 Z"
+                        android:fillColor="#00ffffff"
+                        android:strokeColor="#9bc53d"
+                        android:strokeWidth="1"/>
+                    <path
+                        android:name="path"
+                        android:pathData="M 4.821 11.456 L 9.643 17.25 L 18.643 6.643"
+                        android:strokeColor="#9bc53d"
+                        android:strokeWidth="1"/>
+                </group>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="path">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:duration="1000"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="path_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:duration="1000"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+</animated-vector>
