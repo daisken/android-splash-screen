@@ -1,5 +1,5 @@
 # android-splash-screen
-Android SplashScreen with compat library (androidx.core:core-splashscreen).
+Android SplashScreen API Demo with compat library (androidx.core:core-splashscreen).
 
 https://user-images.githubusercontent.com/71378340/153635173-52b038ba-4eb8-4a6e-9918-3f8a14e5e96f.mp4
 
